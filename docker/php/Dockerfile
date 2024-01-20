@@ -15,5 +15,5 @@ RUN echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> ~/.bashrc
 RUN echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> ~/.bashrc
 
 # Install Node.js 16 using nvm
-RUN /bin/bash -c "source ~/.nvm/nvm.sh && nvm install 16 && nvm use 16"
+RUN /bin/bash -c "source ~/.nvm/nvm.sh && nvm install 16.8 && nvm use 16.8"
 
